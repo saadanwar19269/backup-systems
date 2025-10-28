@@ -35,7 +35,7 @@ GPG_RECIPIENT: Your GPG key (optional)
 
 ./backup.sh run
 
-## Usage
+# Usage
 
 **Regular Backups**
 
@@ -47,20 +47,21 @@ GPG_RECIPIENT: Your GPG key (optional)
 
 **Restore Files**
 
-# Interactive restore
+## Interactive restore
 
 ./restore.sh interactive
 
-# Direct restore
+## Direct restore
 
 ./restore.sh restore snapshot_file.gpg /restore/path
+
 ## Manage Retention
 
-# Show status
+## Show status
 
 ./retention-manager.sh status
 
-# Apply retention policy
+## Apply retention policy
 
 ./retention-manager.sh apply
 
